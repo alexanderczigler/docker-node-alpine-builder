@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:19-alpine
 
 RUN apk --no-cache add --virtual native-deps g++ gcc libgcc libstdc++ linux-headers make python3
 
